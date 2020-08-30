@@ -10,6 +10,15 @@ body{
 		url('../fonts/gilroy-bold.ttf') format('truetype'), /* Safari, Android, iOS */
 		url('../fonts/gilroy-bold.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
 }
+@font-face {
+	font-family: 'Gilroy-Medium';
+	src: url('../fonts/gilroy-medium.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/gilroy-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/gilroy-medium.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/gilroy-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/gilroy-medium.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/gilroy-medium.svg#gilroy-medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}
 /*Стили для header сайта*/
 .header{
   width: 100%;
@@ -39,4 +48,55 @@ body{
   border: 1px solid #828282;
   width: 80%;
   margin: 0 auto;
+}
+/*Стили для home section*/
+.home-content{
+  width: 80%;
+  margin: 0 auto;
+}
+.home-content img{
+  width: 100%;
+}
+.home-content h1{
+  font-family: "Gilroy-Bold";
+  display: inline-flex;
+  font-size: 47.3392px;
+  line-height: 59px;
+  color: #070707;
+}
+.home-content p{
+  display: inline-flex;
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  margin-left: 30%;
+  color: #070707;
+}
+.home-content_lang{
+}
+.home-content_lang a{
+  color: #828282;
+  text-decoration: none;
+  font-family: "Gilroy-Bold";
+  line-height: 20px;
+  transform: rotate(-90deg);
+}
+/*Стили для about section*/
+.about-content{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.about-content h1{
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+}
+.about-content p{
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
 }
