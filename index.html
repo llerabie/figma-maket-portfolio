@@ -3,18 +3,43 @@
   <head>
     <meta charset="utf-8">
     <title> Portfolio </title>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
   </head>
   <body>
     <header class="header">
       <nav class="header__menu">
         <ul class="header__menu__list">
-        <li class="header__menu__item header__menu__item_state_active"><a class="header__menu__link" href=""> Home </a></li>
-        <li class="header__menu__item"><a class="header__menu__link" href=""> About me </a></li>
-        <li class="header__menu__item"><a class="header__menu__link" href=""> Skills </a></li>
-        <li class="header__menu__item"><a class="header__menu__link" href=""> Portfolio </a></li>
-        <li class="header__menu__item"><a class="header__menu__link" href=""> Contacts </a></li>
+        <li class="header__menu__item header__menu__item_state_active"><a class="header__menu__link" title="home" href="#home"> Home </a></li>
+        <li class="header__menu__item"><a class="header__menu__link" title="about" href="#about"> About&nbsp;me </a></li>
+        <li class="header__menu__item"><a class="header__menu__link" title="skills" href="#skills"> Skills </a></li>
+        <li class="header__menu__item"><a class="header__menu__link" title="portfolio" href="#portfolio"> Portfolio </a></li>
+        <li class="header__menu__item"><a class="header__menu__link" title="contacts" href="#contacts"> Contacts </a></li>
         </ul>
       </nav>
+      <hr class="header__horizontal-line">
+      <!-- home
+      ================================================== -->
+      <section id="home" class="s-home page-hero target-section">
+        <div class="home-content">
+          <h1> Denis <br> Novik </h1>
+          <p> UX | UI designer <br> 24 years old, Minsk </p>
+          <p class="home-content_lang"> <a href="#"> RU </a> | <a href="#">ENG </a></p>
+          <img src="img/home-img.png" alt="home-img">
+        </div>
+      </section> <!-- end s-home -->
+      <!-- about
+      ================================================== -->
+      <section id="about" class="s-about target-section">
+      <div class="about-content">
+        <h1> About me </h1>
+        <p> Hi, I'm Denis – UX/UI designer from Minsk. <br>I'm interested in design and everything connected with it. <br> <br> I'm studying at courses "Web and mobile design <br> interfaces" in IT-Academy. <br> <br> Ready to implement excellent projects <br> with wonderful people.</p>
+      </div>
+      </section> <!-- end s-about -->
+      <!-- services
+      ================================================== -->
+      <section id="skills" class="s-skills target-section">
+        <h1> Skills </h1>
+      </section> <!-- end s-skills -->
     </header>
   </body>
 </html>
