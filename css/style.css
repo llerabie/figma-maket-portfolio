@@ -29,13 +29,15 @@ body{
 }
 .header__menu__list{
   display: inline-flex;
+  width: 100%;
   list-style: none;
   font-family: "Gilroy-Bold";
   font-size: 18px;
   line-height: 22px;
 }
 .header__menu__item{
-  margin-left: 30%;
+  width: 20%;
+  text-align: left;
 }
 .header__menu__link{
   text-decoration: none;
@@ -48,6 +50,7 @@ body{
   border: 1px solid #828282;
   width: 80%;
   margin: 0 auto;
+  margin-top: 1%;
 }
 /*Стили для home section*/
 .home-content{
@@ -73,6 +76,8 @@ body{
   color: #070707;
 }
 .home-content_lang{
+  float: right;
+  margin-top: 10%;
 }
 .home-content_lang a{
   color: #828282;
@@ -82,6 +87,10 @@ body{
   transform: rotate(-90deg);
 }
 /*Стили для about section*/
+#about{
+  margin-top: 10%;
+  background: #F6F6F6;
+}
 .about-content{
   width: 80%;
   margin: 0 auto;
@@ -99,4 +108,127 @@ body{
   line-height: 22px;
   text-align: center;
   color: #070707;
+}
+/*Стили для skills section*/
+#skills{
+  margin-top: 10%;
+}
+.skills-content{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.skills-content h1{
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+}
+.skills-content p{
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+}
+.skills-content__program{
+  width: 20%;
+  margin-top: 5%;
+  display: inline-block;
+}
+.skills-content__program h1{
+  font-family: "Gilroy-Medium";
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+}
+#Figma-img{
+  width: 81.76px;
+  height: 81px;
+}
+/*Стили для portfolio section*/
+#portfolio{
+  margin-top: 10%;
+}
+.portfolio-content{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.portfolio-content h1{
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+}
+.portfolio-content p{
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+}
+.portfolio-content img{
+  width: 100%;
+}
+.portfolio-content a{
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #070707;
+}
+.portfolio-content p{
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+/*Стили для contacts section*/
+#contacts{
+  margin-top: 10%;
+}
+.contacts-content{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.contacts-content h1{
+  font-family: "Gilroy-Bold";
+  font-size: 34px;
+  line-height: 42px;
+  color: #070707;
+}
+.contacts-content__p{
+  font-family: "Gilroy-Medium";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+}
+.contacts-content__button-send-mes{
+  background: #070707;
+  margin-top: 2%;
+  font-family: "Gilroy-Bold";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 180.5px;
+  height: 42px;
+  border-radius: 20px;
+  border: none;
+}
+.contacts-content img{
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.contacts-content__links-p{
+  margin-bottom: 10%;
+  margin-top: 5%;
+  font-family: "Gilroy-Medium";
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
 }
